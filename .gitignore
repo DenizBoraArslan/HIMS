@@ -1,0 +1,6 @@
+
+#Spring boot config
+appointment-service/src/main/resources/application.properties
+doctor-service/src/main/resources/application.properties
+employee-service/src/main/resources/application.properties
+patient-service/src/main/resources/application.properties
