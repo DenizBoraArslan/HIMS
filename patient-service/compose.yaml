@@ -1,10 +1,30 @@
+version: '3.9'
+
 services:
-  mysql:
-    image: 'mysql:latest'
-    environment:
-      - 'MYSQL_DATABASE=mydatabase'
-      - 'MYSQL_PASSWORD=secret'
-      - 'MYSQL_ROOT_PASSWORD=verysecret'
-      - 'MYSQL_USER=myuser'
+  patient-service:
+    build: .
+    container_name: patient-service
     ports:
-      - '3306'
+      - "8083:8083"
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/patient_service?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: pass
+
+  db:
+    image: mysql:8.1
+    container_name: patient-mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: 25052005
+      MYSQL_DATABASE: patient_service
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+    ports:
+      - "3309:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:

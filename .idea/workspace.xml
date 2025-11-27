@@ -5,141 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d02804b2-d50d-4f80-bbe7-2a670d58734b" name="Changes" comment="hims v1">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HIMS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/AppointmentServiceApplicationStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/application/dto/AppointmentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/application/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/application/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/application/exception/exception_enums/ExceptionEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/application/interfaces/IAppointmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/application/mapper/DtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/application/usecases/AppointmentUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/domain/entity/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/domain/enums/AppointmentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/persistence/dbo/AppointmentDbo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/persistence/mapper/AppointmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/persistence/repository/JpaAppointmentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/persistence/repository/interfaces/IAppointmentSpringDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/presentation/config/ApiPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/presentation/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/presentation/controller/AppointmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/presentation/handler/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/hims/appointment/presentation/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/test/java/com/hims/appointment/application/usecase/AppointmentUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/test/java/com/hims/starter/AppointmentServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/DoctorServiceApplicationStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/application/dto/DoctorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/application/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/application/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/application/exception/exception_enums/ExceptionEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/application/interfaces/IDoctorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/application/mapper/DtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/application/usecase/DoctorUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/domain/entity/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/domain/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/domain/enums/Specialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/domain/enums/Title.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/persistence/dbo/DoctorDbo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/persistence/mapper/DoctorDboMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/persistence/repository/JpaDoctorRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/persistence/repository/interfaces/IDoctorSpringDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/presantation/config/ApiPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/presantation/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/presantation/controller/DoctorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/presantation/handler/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/hims/doctor/presantation/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-service/src/test/java/com/hims/doctor_service/DoctorServiceApplicationStarterTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/EmployeeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/application/dto/EmployeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/application/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/application/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/application/exception/excepiton_enums/ExceptionEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/application/interfaces/IEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/application/mapper/EmployeeDtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/application/usecase/EmployeeUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/domain/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/domain/enums/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/domain/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/domain/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/persistence/dbo/EmployeeDbo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/persistence/mapper/EmployeeDboMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/persistence/repository/JpaEmployeeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/persistence/repository/interfaces/IEmployeeSpringDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/presantation/config/ApiPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/presantation/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/presantation/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/presantation/handler/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/hims/employee/presantation/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/test/java/com/hims/employee_service/EmployeeUseCaseApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/PatientServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/appilcation/dto/PatientDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/appilcation/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/appilcation/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/appilcation/exception/exception_enums/ExceptionEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/appilcation/interfaces/IPatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/appilcation/mapper/DtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/appilcation/usecase/PatientUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/domain/entites/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/domain/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/domain/enums/InsuranceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/persistence/dbo/PatientDbo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/persistence/mapper/DboMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/persistence/repository/JpaPatientRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/persistence/repository/interfaces/IPatientSpringDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/presantation/config/ApiPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/presantation/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/presantation/controller/PatientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/presantation/handler/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/hims/patient/presantation/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/test/java/com/hims/patient_service/PatientServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/target/classes/com/hims/appointment/application/exception/ErrorMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/appointment-service/target/classes/com/hims/appointment/application/exception/ErrorMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +102,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.appointment-service/Dockerfile.executor": "Run",
+    "Docker.appointment-service/compose.yml: Compose Deployment.executor": "Run",
+    "Docker.doctor-service/compose.yaml: Compose Deployment.executor": "Run",
     "Docker.employee-service/compose.yaml: Compose Deployment.executor": "Run",
     "Docker.employee-service/compose.yml: Compose Deployment.executor": "Run",
     "Docker.patient-service/compose.yaml: Compose Deployment.executor": "Run",
@@ -248,17 +126,19 @@
     "Spring Boot.DoctorService.executor": "Run",
     "Spring Boot.EmployeeService.executor": "Run",
     "Spring Boot.PatientServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DENİZ/OneDrive/Masaüstü/HIMS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -305,9 +185,9 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="AppointmentService" value="STOPPED" />
-              <entry key="DoctorService" value="STOPPED" />
-              <entry key="EmployeeService" value="STOPPED" />
+              <entry key="AppointmentService" value="FAILED" />
+              <entry key="DoctorService" value="FAILED" />
+              <entry key="EmployeeService" value="FAILED" />
               <entry key="PatientServiceApplication" value="STOPPED" />
             </map>
           </value>
@@ -330,71 +210,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="appointment-service [clean,package...]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings">
-          <MavenGeneralSettings>
-            <option name="alwaysUpdateSnapshots" value="false" />
-            <option name="checksumPolicy" value="NOT_SET" />
-            <option name="customMavenHome" />
-            <option name="emulateTerminal" value="false" />
-            <option name="failureBehavior" value="NOT_SET" />
-            <option name="localRepository" value="" />
-            <option name="mavenHome" value="Bundled (Maven 3)" />
-            <option name="mavenHomeTypeForPersistence" value="BUNDLED3" />
-            <option name="nonRecursive" value="false" />
-            <option name="outputLevel" value="INFO" />
-            <option name="printErrorStackTraces" value="false" />
-            <option name="showDialogWithAdvancedSettings" value="false" />
-            <option name="threads" />
-            <option name="useMavenConfig" value="true" />
-            <option name="userSettingsFile" value="" />
-            <option name="workOffline" value="false" />
-          </MavenGeneralSettings>
-        </option>
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="delegateBuildToMaven" value="false" />
-            <option name="environmentProperties">
-              <map />
-            </option>
-            <option name="jreName" value="#USE_PROJECT_JDK" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="passParentEnv" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="package" />
-                <option value="-DskipTests" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/doctor-service" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
     </configuration>
     <configuration name="AppointmentService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="appointment-service" />
@@ -419,13 +234,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatientService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="patient-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hims.patient_service.PatientServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PatientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="patient-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hims.patient.PatientServiceApplication" />
@@ -439,10 +247,18 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="employee-service/compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="appointment-service/compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="employee-service/compose.yaml" />
+          <option name="sourceFilePath" value="appointment-service/compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="doctor-service/compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="doctor-service/compose.yaml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -464,22 +280,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.patient-service/compose.yaml: Compose Deployment" />
-      <item itemvalue="Docker.employee-service/compose.yaml: Compose Deployment" />
+      <item itemvalue="Docker.appointment-service/compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.doctor-service/compose.yaml: Compose Deployment" />
       <item itemvalue="Docker.employee-service/compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.patient-service/compose.yaml: Compose Deployment" />
       <item itemvalue="JUnit.AppointmentUseCaseTest" />
-      <item itemvalue="Maven.appointment-service [clean,package...]" />
-      <item itemvalue="Spring Boot.PatientServiceApplication" />
       <item itemvalue="Spring Boot.AppointmentService" />
       <item itemvalue="Spring Boot.DoctorService" />
       <item itemvalue="Spring Boot.EmployeeService" />
-      <item itemvalue="Spring Boot.PatientService" />
+      <item itemvalue="Spring Boot.PatientServiceApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Docker.patient-service/compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.employee-service/compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.employee-service/compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.doctor-service/compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.appointment-service/compose.yml: Compose Deployment" />
         <item itemvalue="JUnit.AppointmentUseCaseTest" />
       </list>
     </recent_temporary>
@@ -514,7 +330,12 @@
       <workItem from="1764159211059" duration="2140000" />
       <workItem from="1764161397874" duration="1267000" />
       <workItem from="1764162712035" duration="135000" />
-      <workItem from="1764228312862" duration="602000" />
+      <workItem from="1764228312862" duration="878000" />
+      <workItem from="1764229207202" duration="70000" />
+      <workItem from="1764229286984" duration="139000" />
+      <workItem from="1764229449534" duration="86000" />
+      <workItem from="1764229692821" duration="532000" />
+      <workItem from="1764230261947" duration="2107000" />
     </task>
     <task id="LOCAL-00001" summary="appointment-service v1">
       <option name="closed" value="true" />
@@ -566,6 +387,15 @@
                 </option>
               </RecentGroup>
             </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
