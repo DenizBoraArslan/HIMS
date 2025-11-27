@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d02804b2-d50d-4f80-bbe7-2a670d58734b" name="Changes" comment="hims v1">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d02804b2-d50d-4f80-bbe7-2a670d58734b" name="Changes" comment="HIMS v1">
       <change beforePath="$PROJECT_DIR$/appointment-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/target/classes/com/hims/appointment/application/exception/ErrorMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/appointment-service/target/classes/com/hims/appointment/application/exception/ErrorMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doctor-service/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -335,7 +329,7 @@
       <workItem from="1764229286984" duration="139000" />
       <workItem from="1764229449534" duration="86000" />
       <workItem from="1764229692821" duration="532000" />
-      <workItem from="1764230261947" duration="2107000" />
+      <workItem from="1764230261947" duration="2449000" />
     </task>
     <task id="LOCAL-00001" summary="appointment-service v1">
       <option name="closed" value="true" />
@@ -369,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764078891504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HIMS v1">
+      <option name="closed" value="true" />
+      <created>1764235190892</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764235190892</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +408,8 @@
     <MESSAGE value="doctor-service v1" />
     <MESSAGE value="employee-service v1" />
     <MESSAGE value="patient-service v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="patient-service v1" />
+    <MESSAGE value="HIMS v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HIMS v1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
