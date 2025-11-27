@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="appointment-service" target="21" />
+      <module name="doctor-service" target="21" />
+      <module name="employee-service" target="21" />
+      <module name="patient-service" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
